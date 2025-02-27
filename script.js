@@ -16,7 +16,6 @@ cancelcard.addEventListener("click", function (event) {
 });
 
 // Select form inputs
-// Select form inputs
 var cardcontainer = document.getElementById("card-container");
 var addcard = document.getElementById("add-card");
 var nameinput = document.getElementById("name-input");
@@ -26,11 +25,11 @@ var statusinput = document.getElementById("status");
 
 // Object mapping company names to their images
 var companyImages = {
-    "Microsoft": "/img/microsoft.png",
-    "Airbnb": "/img/airbnb.png",
-    "Lilly": "/img/lilly.png",
-    "Tailus": "/img/tailus.png",
-    "Coty": "/img/coty.png"
+    "Microsoft": "img/microsoft.png",
+    "Airbnb": "img/airbnb.png",
+    "Lilly": "img/lilly.png",
+    "Tailus": "img/tailus.png",
+    "Coty": "img/coty.png"
 };
 
 // Auto-update image when selecting a company
@@ -76,7 +75,3 @@ addcard.addEventListener("click", function (event) {
 function dlt(event) {
     event.target.closest(".cardbox").remove();
 }
-
-
-
-
